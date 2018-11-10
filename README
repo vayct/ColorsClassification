@@ -1,0 +1,24 @@
+Will require opencv and numpy installed.
+
+Usage where file.jpg is in the same directory:
+python colorsClassification.py file.jpg
+
+Can also query multiple file at once:
+python colorsClassification.py file1.jpg file2.jpg
+
+
+
+Output:
+filename
+letterColorName
+letterColorRGB
+shapeColorName
+shapeRGB
+
+
+Note that the this program will also output an image of filename_output.jpg
+This file is the result of segmentation and kmeans clustering. 
+If this image looks correct, the output has 80% of being accurate. 
+If not, then do not use the output and try to get a better image.
+
+Feature updates: option paramters and add additional colors
